@@ -22,15 +22,16 @@ package com.pushapp;
 import android.os.Bundle;
 import org.apache.cordova.*;
 
-public class PushNotificationApp extends DroidGap
+public class PushNotificationApp extends CordovaActivity 
 {
     @Override
     public void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
+        super.init();
         // Set by <content src="index.html" /> in config.xml
         super.loadUrl(Config.getStartUrl());
-        //super.loadUrl("file:///android_asset/www/index.html")
+        //super.loadUrl("file:///android_asset/www/index.html");
     }
 }
 

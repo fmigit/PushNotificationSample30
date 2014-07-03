@@ -28,5 +28,14 @@ module.exports = [
             "window.Media"
         ]
     }
-]
+];
+module.exports.metadata = 
+// TOP OF METADATA
+{
+    "com.phonegap.plugins.PushPlugin": "2.0.1",
+    "org.apache.cordova.core.dialogs": "0.2.0",
+    "org.apache.cordova.core.AudioHandler": "0.2.1",
+    "org.apache.cordova.core.console": "0.2.0"
+}
+// BOTTOM OF METADATA
 });
